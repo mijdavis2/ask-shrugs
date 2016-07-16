@@ -1,0 +1,10 @@
+AMAZON.HelpIntent       what can I ask about
+AMAZON.HelpIntent       what can we ask about
+WhatShouldIDo           what should I do
+WhatShouldIDo           what should we do
+WhatGame                what game
+WhatGame                what game should I play
+WhatGame                what game should we play
+WhatShouldIWatch        what should I watch
+WhatShouldIWatch        what show
+WhatShouldIWatch        what should we watch

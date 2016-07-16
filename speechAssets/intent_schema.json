@@ -1,0 +1,24 @@
+{
+  "intents": [
+    {
+      "slots": [],
+      "intent": "AMAZON.HelpIntent"
+    },
+    {
+      "slots": [],
+      "intent": "AMAZON.StopIntent"
+    },
+    {
+      "slots": [],
+      "intent": "WhatShouldIDo"
+    },
+    {
+      "slots": [],
+      "intent": "WhatGame"
+    },
+    {
+      "slots": [],
+      "intent": "WhatShouldIWatch"
+    }
+  ]
+}
