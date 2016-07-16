@@ -39,7 +39,7 @@ def session_ended_request_handler(request):
 @alexa.intent_handler('AMAZON.HelpIntent')
 def help_intent_handler(request):
     message = "Let's face it, you're bad at making decisions. " \
-              "Simply ask shrugs what should I do, and I'll tell you what to do." \
+              "Simply ask shrugs what should I do, and I'll tell you what to do. " \
               "You can also ask what game should I play, what should I watch, " \
               "and soon, what should I eat or where should I go to eat."
     return alexa.create_response(message=message, end_session=True)
@@ -69,7 +69,7 @@ def next_recipe_intent_handler(request):
         "james bond",
         "rick and morty"
     ]
-    pre = "You should "
+    pre = "You should watch"
     selected_option = choice(options)
     return alexa.create_response(message="{} {}".format(pre, selected_option), end_session=True)
 
